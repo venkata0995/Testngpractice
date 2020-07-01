@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-01T17:23:23Z" name="Test Department" finished-at="2020-07-01T17:23:23Z" duration-ms="22">
+    <groups>
+      <group name="smoke">
+        <method signature="Day2.appium2()[pri:0, instance:Test.Day2@1500955a]" name="appium2" class="Test.Day2"/>
+        <method signature="Day3.api3()[pri:0, instance:Test.Day3@e874448]" name="api3" class="Test.Day3"/>
+        <method signature="Demo.Demo()[pri:0, instance:Test.Demo@7ce6a65d]" name="Demo" class="Test.Demo"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-07-01T17:23:23Z" name="Test1" finished-at="2020-07-01T17:23:23Z" duration-ms="22">
+      <class name="Test.Day2">
+        <test-method signature="appium2()[pri:0, instance:Test.Day2@1500955a]" started-at="2020-07-01T17:23:23Z" name="appium2" finished-at="2020-07-01T17:23:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium2 -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day3">
+        <test-method signature="api3()[pri:0, instance:Test.Day3@e874448]" started-at="2020-07-01T17:23:23Z" name="api3" finished-at="2020-07-01T17:23:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api3 -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Demo">
+        <test-method signature="Demo()[pri:0, instance:Test.Demo@7ce6a65d]" started-at="2020-07-01T17:23:23Z" name="Demo" finished-at="2020-07-01T17:23:23Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- Test.Demo -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Test Department -->
+</testng-results>

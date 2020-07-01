@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Department" parallel="tests" thread-count="4">
+   <listeners>
+       <listener class-name="Test.Listeners"/>
+   </listeners>
+    <test verbose="2" preserve-order="true" name="Test1">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+
+                <class name="Test.Demo"/>
+            <class name="Test.Day2"/>
+            <class name="Test.Day3"/>
+        </classes>
+    </test>
+</suite>
+
+
